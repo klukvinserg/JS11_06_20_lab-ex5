@@ -1,11 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
-body {
-    height: 100vh;
-    position: absolute;
-    z-index: -100;
-}
-
 nav {
   width: 800px;
   margin: 0 auto 30px;
