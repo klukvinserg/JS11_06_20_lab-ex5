@@ -3,6 +3,7 @@ let tmp = false;
 function myOver() {
   let target = event.target;
   target.style.background = "#373d57";
+
   if (
     (tmp === true && event.path[0].id === "dresses") ||
     (tmp === true && event.path[0].id === "shirts") ||
@@ -36,4 +37,12 @@ function myClick() {
     about.style.background = "#6671a0";
     tmp = false;
   }
+}
+
+function myOverSub() {
+  tmp = true;
+}
+
+function myOutSub() {
+  tmp = false;
 }

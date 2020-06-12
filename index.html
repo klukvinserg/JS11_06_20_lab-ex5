@@ -7,8 +7,8 @@
     <link href="css/index.css" rel="stylesheet" />
     <script src="js/index.js"></script>
   </head>
-  <body onmouseover="myOutB(event)">
-    <nav class="one">
+  <body>
+    <nav class="one" >
       <ul class="topmenu">
         <li id="home" onmouseover="myOver(event)" onmouseout="myOut(event)">
           <a href="#">Home</a>
@@ -18,9 +18,9 @@
         </li>
         <li id="about" onmouseover="myOver(event)" onmouseout="myOut(event)" onclick="myClick(event)">
           <a href="#">About &#9660;</a>
-          <ul class="submenu" id="subMenuBlock">
+          <ul class="submenu" id="subMenuBlock" onmouseover="myOverSub(event)" onmouseout="myOutSub(event)">
             <li>
-              <a href="" id="dresses">Dresses</a>
+              <a href="" id="dresses" >Dresses</a>
             </li>
             <li>
               <a href="" id="shirts">T-shirts</a>
