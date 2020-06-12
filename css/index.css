@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+nav {
+  width: 800px;
+  margin: 0 auto 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+
+a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Lora", serif;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.fa {
+  font-family: "FontAwesome";
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.one ul {
+  background: #6671a0;
+}
+
+.one .submenu {
+  display: none;
+  background: #6671a0;
+}

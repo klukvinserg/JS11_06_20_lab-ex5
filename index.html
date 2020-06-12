@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex5</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/index.js"></script>
+  </head>
+  <body onmouseover="myOutB(event)">
+    <nav class="one">
+      <ul class="topmenu">
+        <li id="home" onmouseover="myOver(event)" onmouseout="myOut(event)">
+          <a href="#">Home</a>
+        </li>
+        <li id="home" onmouseover="myOver(event)" onmouseout="myOut(event)">
+          <a href="#">Categories</a>
+        </li>
+        <li id="about" onmouseover="myOver(event)" onmouseout="myOut(event)" onclick="myClick(event)">
+          <a href="#">About &#9660;</a>
+          <ul class="submenu" id="subMenuBlock">
+            <li>
+              <a href="" id="dresses">Dresses</a>
+            </li>
+            <li>
+              <a href="" id="shirts">T-shirts</a>
+            </li>
+            <li>
+              <a href="" id="jeans">Jeans</a>
+            </li>
+            <li>
+              <a href="" id="shoes">Shoes</a>
+            </li>
+          </ul>
+        </li>
+        <li id="contact" onmouseover="myOver(event)" onmouseout="myOut(event)">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
